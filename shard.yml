@@ -1,0 +1,16 @@
+name: Crystal-app
+version: 0.1.0
+
+authors:
+  - komisan19 <komiyama6219@gmail.com>
+
+targets:
+  Crystal-app:
+    main: src/Crystal-app.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+crystal: 0.24.1
+
+license: MIT
